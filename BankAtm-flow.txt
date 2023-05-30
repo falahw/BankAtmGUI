@@ -1,0 +1,122 @@
+BankApp
+=======
+
+BankLogin
+---------
+(user id included)
+if role = admin --> go to admin dashboard
+if role = customer --> go to customer dashboard
+
+Menu BankAdmin
+--------------
+[A] Menu Action
+[B] Check Existing Data (all admins & customers) -- 'Show Data'
+
+[C] Create user: --saved to bankDbUser -- 'Create Data'
+0) role: admin/user
+1) account number (auto generated)
+2) user id (role include) -- unique, all num, no caps, no special regex
+3) password
+4) name (numeric + special char not allowed)
+5) birth date
+6) address
+7) mother's name (numeric + special char not allowed)
+8) job/occupation
+9) range salary
+10) acc balance (saved in numeric, displayed with currency)
+11) member status ~ silver, gold, diamond (regularly checked)
+
+[D] Edit User
+1-a) input user id
+2-a) input user acc no
+
+1-b) show user role
+2-b) show user acc no
+3-b) show user id
+4-b) show pass
+5-b) show user name
+6-b) show user b'day
+7-b) show user address
+8-b) show user mother's name
+9-b) show user occupation
+10-b) show user salary range
+11-b) show user acc balance
+12-b) show user member status
+
+[E] Delete User
+1) input user id
+2) input user acc no
+
+Menu BankCustomer
+-----------------
+[A] Show Personal Data -- Account Profile
+1) show user role
+2) show user acc no
+3) show user id
+4) show pass
+5) show user name
+6) show user b'day
+7) show user address
+8) show user mother's name
+9) show user occupation
+10) show user salary range
+11) show user acc balance
+12) show user member status
+
+[B] Transfer:
+1-a) choose transfer same bank
+2-a) choose transfer domestic
+
+1-b) Account Destination
+2-b) Transfer Amount (in IDR)
+3-b) Transfer Notes
+
+[C] Show transaction Record
+(( Not implemented yet ))
+
+Bank Transfer Record (Domestic)
+--------------------
+Date
+Time
+Reference Number (xxxx-xxxx-xxxx-xxxx)
+To Account:
+- Bank
+- Account Number
+- Beneficiary name
+Amount
+Charges
+Transfer Service (bi fast, online, llg, rtgs)
+Transfer Type (immediate, scheduled)
+Sequence Number
+Status (success/fail)
+
+Bank Transfer Record (Same Bank)
+--------------------
+Date
+Time
+Reference Number (xxxx-xxxx-xxxx-xxxx)
+To Account
+Benefiary Name
+Amount
+Remark
+Transfer Type (immediate, scheduled)
+Sequence Number
+Status (success/fail)
+
+Bank Transaction Record
+-----------------------
+[FILENAME]
+userlog_[accNo]-[id]
+
+[TABLE]
+Date
+Description/Transaction (detail)
+Branch
+Amount
+Cr/Dr
+Balance
+
+Starting Balance
+Total Credits
+Total Debits
+Ending Balance

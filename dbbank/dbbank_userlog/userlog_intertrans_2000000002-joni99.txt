@@ -1,0 +1,4 @@
+2022/05/08;23:45:38;2000000002;joni binjai;27000000;cr;transfer credit;initial balance;immediate;202200000;success
+2022/05/27;21:59:27;1000000002;null;50000;cr;transfer credit;piuy;immediate;202200001;success
+2022/06/16;16:20:14;1000000002;null;300000;cr;transfer credit;inalinul;immediate;202200002;success
+2022/06/16;16:25:36;1000000002;adminina;350000;db;transfer debit;gundul pacul;immediate;202200003;success

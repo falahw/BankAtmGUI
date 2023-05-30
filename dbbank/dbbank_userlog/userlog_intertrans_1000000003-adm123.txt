@@ -1,0 +1,1 @@
+2022/07/12;12:32:12;1000000003;Miranda;4500000;cr;transfer credit;initial balance;immediate;202200000;success

@@ -1,0 +1,1 @@
+2022/07/12;12:23:28;2000000005;Kerr;3000000;cr;transfer credit;initial balance;immediate;202200000;success
