@@ -1,1 +1,2 @@
 2022/07/12;12:23:28;2000000005;Kerr;3000000;cr;transfer credit;initial balance;immediate;202200000;success
+2023/05/30;14:36:57;1000000003;Miranda;10000;cr;transfer credit;tes ceban;immediate;202200001;success

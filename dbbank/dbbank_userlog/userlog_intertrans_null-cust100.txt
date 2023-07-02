@@ -1,0 +1,2 @@
+
+2022/09/25;20:47:29;1000000003;Miranda;13000;db;transfer debit;tes trans;immediate;0;success
